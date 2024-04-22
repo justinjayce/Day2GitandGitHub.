@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+.bg {
+background-color: orange;
+
+background: rgb(2,0,36);
+
+/*gradient background*/
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,198,76,1) 38%, rgba(0,212,255,1) 100%);
+
+/*background-image: url ('sample.jpg') */
+background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Flight-colour-background&psig=AOvVaw1KBXz9OaENFvOgnO_m96DG&ust=1713533277300000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDQ1Ynvy4UDFQAAAAAdAAAAABAT');
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+
+ /* background: bg-color  bg-image  bg-position  bg-size  bg-repeat */
+
+    /* background: aqua url('sample.jpg') center cover no-repeat; */
+
+.font-sample {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Jersey 15", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: mintcream;
+}
+
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+#spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 40px;
+}
+
+/* 
+    text-shadow:
+        x-coordinate ||
+        y-coordinate ||
+        blur radius ||
+        color of the shadow
+ */
+ #shadow-sample {
+    text-shadow: 20px -5px 5px #5767de;
+    font-size: 25px;
+}
+
+.box-model {
+    background-color: lavender;
+    height: 100px;
+    width: 80px;
+
+    padding: 10px 20px 15px 30px;
+    padding-bottom: 25px;
+
+    border-color: crimson;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 50px;
+    border: 10px orange inset;
+
+    border-top: 5px solid purple;
+    border-right: 5px dashed blue;
+    border-bottom: 8px dotted green;
+    border-left: 8px double orange;
+
+    margin: 5px 20px 40px 60px;
+    margin-top: 50px;
+
+
+
+
+}
+
+/* == MARGIN & PADDING==
+1 value = applied to all 4 sides
+2 value = top and bottom side || right and left side
+3 value = top side || left and right side || bottom side
+4 value = top side || right side || bottome side || left side
+*/
+
+
+
